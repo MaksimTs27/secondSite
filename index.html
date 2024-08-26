@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second site</title>
+</head>
+<body>
+    <H2> Мой второй сайт</H2>
+    <div>
+        <h3>Мое видео</h3>
+        <video src="2849-163375551_small.mp4" width="600px" height="400px" title="Cruise liner in the harbour" controls >Cruise liner in the harbour </video>
+    </div>
+
+    <div>
+        <h2>Моя музыка</h2>
+       <audio src="Deutchland   Ramstain.mp3" title="Rammstein" controls >Slow internet connection.</audio>
+        <hr>
+    </div>
+
+    <form action="/submit" method="post">
+        <label for="motorcycle"><strong>Выберите марку мотоцикла:</strong><br></label>
+        <select name="motorcycle" id="motorcycle">
+            <option value="kaw">Kawasaki</option>
+            <option value="hon">Honda</option>
+            <option value="yam">Yamaha</option>
+            <option value="bmw">BMW</option>
+            <option value="ktm">KTM</option>
+        </select><br><br>
+        
+
+        <label> Ваш стиль отдыха: </label><br>
+        <input type="checkbox" id ="restStyle" name="restStyle" value="hiking" >
+        <label for="rest" >Поход</label><br>
+        <input type="checkbox" id ="restStyle" name="restStyle" value="swimming" >
+        <label for="rest" >Плавание</label><br>
+        <input type="checkbox" id ="restStyle" name="restStyle" value="bicycle" >
+        <label for="rest" >Велосипед</label><br>
+        <input type="checkbox" id ="restStyle" name="restStyle" value="walking" >
+        <label for="rest" >Прогулки</label><br><br>
+
+        <button> Отправить результат</button>
+        
+    </form>
+    
+</body>
+</html>
